@@ -11,6 +11,7 @@ public class SeleniumIntroClass {
 		driver.get("https://www.flipkart.com/");
 		System.out.println(driver.getCurrentUrl());
 		String str = "I am 1st change";
+		String str1 = "I am 2nd change";
 		driver.quit();
 	}
 
