@@ -10,6 +10,7 @@ public class SeleniumIntroClass {
 		WebDriver driver = new EdgeDriver();
 		driver.get("https://www.flipkart.com/");
 		System.out.println(driver.getCurrentUrl());
+		String str = "I am 1st change";
 		driver.quit();
 	}
 
